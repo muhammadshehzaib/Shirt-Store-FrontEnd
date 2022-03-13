@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #f6f6f6; */
+}
+body {
+  font-family: cursive;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 52px 46px;
+  padding-bottom: 16px;
+  margin: 0px 20px;
+  color: #fff;
+}
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+}
+.menu li {
+  padding: 5px 24px;
+  color: #000000;
+}
+.store-link {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  /* color: #000000; */
+  color: rgba(0, 0, 0, 0.5);
+}
+.customer-link {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+/* Model section starts  */
+/* .model-img-section {
+} */
+.model-img-section img {
+  width: 100%;
+  height: 654px;
+}
+.jacket-header-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+}
+
+.attica-co-original-text {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.15em;
+  text-align: center;
+  color: #ffffff;
+}
+.jacket-text {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 99px;
+  letter-spacing: 0.3em;
+  text-align: left;
+  color: #ffffff;
+}
+.jacket-header-text img {
+  margin-left: 80px;
+  margin-top: 180px;
+}
+.pure-g {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 75px 141px 98px 142px;
+}
+.pure-u-1-3 {
+  padding-left: 10px;
+}
+.pure-u-1-3 img {
+  width: 92%;
+  height: 450px;
+}
+.jacket-name {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  color: #000000;
+  margin-top: 10px;
+}
+.jacket-price {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+  margin-top: 10px;
+}
+/* .footer-section {
+} */
+.footer-icons-logo {
+  display: flex;
+  margin: 75px 141px;
+  gap: 20px;
+  fill: #000000;
+  width: 20px;
+  height: 20px;
+}
+
+.email-input-tag {
+  margin-left: 135px;
+}
+.input-tag {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: 0;
+  outline: none;
+  width: 25%;
+  /* height: 0px; */
+}
+.subscribe-btn {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  color: #000000;
+}
+.line {
+  width: 30%;
+  border: 1px solid #000000;
+  display: inline-block;
+  margin-left: 135px;
+}
+.footer-logo {
+  float: right;
+}

@@ -1,0 +1,453 @@
+/* UTILITIES */
+@font-face {
+  font-family: custom-font;
+  src: url(assets/fonts/AvertaDemo-Regular.otf) format("opentype");
+  font-weight: 400;
+}
+.default-btn {
+  text-align: center;
+}
+.primary-btn {
+  display: inline-block;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 17px 51px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 40px;
+  font-family: custom-font;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: custom-font;
+  background-color: #000000;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.custom-container {
+  width: 100%;
+  max-width: 1190px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+/* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 52px 0 19px;
+  color: #fff;
+}
+.nav-links a {
+  color: #fff;
+  font-family: custom-font;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+}
+.menu li {
+  padding: 5px 24px;
+}
+.store-link {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.customer-link {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+/* Model section starts  */
+.model-img-section {
+  margin-bottom: 155px;
+}
+.model-img-section img {
+  width: 100%;
+}
+/* made in canada section starts here */
+.made-in-canada-section {
+  margin: 0 0 98px;
+}
+.made-in-canada-section img {
+  width: 100%;
+}
+/* Made In Canada Section Starts */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.made-in-canada-text {
+  font-family: "Averta Demo PE Cutted Demo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 57px;
+  text-align: center;
+  background-color: transparent;
+}
+.Cut-Sew-Trim-text {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: transparent;
+}
+/* fast fashion section starts */
+.fast-fashion-section + .default-btn {
+  margin: 98px 0;
+}
+
+.fast-fashion-text {
+  /* font-family: Averta Demo PE Cutted Demo; */
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: left;
+  /* background-color: transparent; */
+}
+.week-sourcing-text {
+  /* font-family: Averta Demo PE Cutted Demo; */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  /* background-color: transparent; */
+}
+
+/* lookbook-btn-section starts */
+
+/* Jacket Header section starts*/
+
+.jacket-image-block {
+  width: 50%;
+}
+.jacket-image-block img {
+  width: 100%;
+}
+
+.attica-co-original-text {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.jacket-text {
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 87px;
+  letter-spacing: 0.3em;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.attica-mark-shape {
+  margin: auto;
+  width: 100%;
+}
+.attica-mark-shape img {
+  margin-top: 140px;
+  width: 100px;
+  height: 100px;
+}
+
+.product-items {
+  margin: 98px 0;
+}
+
+/* jacket product section starts */
+.product-items ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -33px;
+}
+
+.product-items ul li {
+  width: calc(100% / 3);
+  padding-left: 33px;
+}
+
+.product-items-img {
+  width: 100%;
+}
+
+.jacket-name {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.jacket-price {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 10px;
+}
+/* Bombar Vest section starts */
+.jacket-header-section {
+  display: flex;
+  border: 1px solid #ffffff4d;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.jacket-header-text {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+.attica-co-original-text {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.jacket-text {
+  text-align: center;
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 87px;
+  letter-spacing: 0.3em;
+  /* background-color: transparent; */
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.attica-mark-shape {
+  margin: auto;
+  width: 50%;
+}
+.attica-mark-shape img {
+  margin-top: 80px;
+  width: 100px;
+  height: 100px;
+}
+/* Vest product section starts */
+.bomber-vest img {
+  order: 1;
+}
+
+/* footer section starts here */
+.footer-section {
+  text-align: center;
+}
+.back-to-top-btn {
+  color: #ffffff;
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+}
+.arrow {
+  fill: #ffffff;
+  width: 20px;
+  height: 20px;
+}
+.footer-icons-logo {
+  display: flex;
+  margin: 75px 0;
+  gap: 20px;
+}
+
+.email-input-tag-with-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.email-input-tag {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.5px solid #ffffffcc;
+  width: 100%;
+  max-width: 418px;
+}
+.input-tag {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: 0;
+  outline: none;
+  width: 100%;
+  max-width: 350px;
+  background: transparent;
+  padding: 15px 0;
+}
+.subscribe-btn {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+.line {
+  width: 30%;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  margin-left: 135px;
+}
+.footer-logo {
+  float: right;
+}
+@media (max-width: 1023px) {
+  .jacket-header-section {
+    flex-wrap: wrap;
+  }
+  .jacket-image-block {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .jacket-header-text {
+    width: 100%;
+  }
+  .jacket-text {
+    letter-spacing: 0;
+  }
+  .fast-fashion-section + .default-btn {
+    margin: 50px 0;
+  }
+
+  .two-block .custom-container {
+    padding: 0;
+  }
+
+  .two-block .custom-container .jacket-header-section {
+    position: relative;
+  }
+
+  .two-block .custom-container .jacket-header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/*  Styling for mobile */
+@media (max-width: 600px) {
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .made-in-canada-text,
+  .fast-fashion,
+  .fast-fashion-text {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .Cut-Sew-Trim-text,
+  .week-sourcing-text {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .attica-co-original-text {
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+  }
+  .jacket-text {
+    font-size: 50px;
+    line-height: 61px;
+  }
+  .product-items ul li {
+    width: calc(100% / 2);
+  }
+  .product-items ul li:not(:last-child) {
+    margin-bottom: 13px;
+  }
+  .primary-btn {
+    padding: 6px 21px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .jacket-name,
+  .jacket-price {
+    font-size: 9px;
+    line-height: 11px;
+  }
+}

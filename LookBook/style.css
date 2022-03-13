@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #f6f6f6; */
+}
+body {
+  font-family: cursive;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 52px 46px;
+  padding-bottom: 16px;
+  margin: 0px 20px;
+  color: #fff;
+}
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+}
+.menu li {
+  padding: 5px 24px;
+  color: #000000;
+}
+.store-link {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  /* color: #000000; */
+  color: rgba(0, 0, 0, 0.5);
+}
+.customer-link {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+/* company imformation with logo section starts here */
+.company-imformation {
+  width: 50%;
+  margin: auto;
+}
+.company-name {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.product-features {
+  font-family: Averta Demo PE Cutted Demo;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.company-logo {
+  width: 150px;
+  height: 100px;
+}
+/* images section starts here */
